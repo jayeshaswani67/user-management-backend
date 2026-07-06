@@ -1,0 +1,51 @@
+# Build output
+bin/
+obj/
+publish/
+artifacts/
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.csproj.user
+*.sln.docstates
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
+appsettings.Secrets.json
+
+# MongoDB / local database files
+*.wt
+*.lock
+WiredTiger*
+mongod.lock
+diagnostic.data/
+
+# Logs and temporary files
+*.log
+*.cache
+*.tmp
+*.temp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test output
+TestResults/
+coverage/
